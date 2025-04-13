@@ -1,0 +1,14 @@
+{
+  "name": "docuvault-1744566427",
+  "version": "1.0.0",
+  "description": "Aiutare gli utenti a gestire i loro documenti aziendali in modo più efficiente e sicuro, rendendo la collaborazione team-based più facilitata.",
+  "scripts": {
+    "dev": "npm run dev:frontend & npm run dev:backend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "npm run start:backend"
+  },
+  "author": "dOuReallyDo",
+  "license": "MIT"
+}
